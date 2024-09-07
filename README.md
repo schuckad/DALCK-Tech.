@@ -39,4 +39,5 @@ Se tiver alguma dúvida, pode abrir uma issue no GitHub ou me mandar um email.
 **Vamos juntos construir uma comunidade tecnológica incrível!** 
 
 **#dalcktech #tecnologia #desenvolvimentoweb #github #javascript**
+
 ** Obrigado por tudo! _Bis später!_**
