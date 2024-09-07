@@ -39,10 +39,4 @@ Se tiver alguma dúvida, pode abrir uma issue no GitHub ou me mandar um email.
 **Vamos juntos construir uma comunidade tecnológica incrível!** 
 
 **#dalcktech #tecnologia #desenvolvimentoweb #github #javascript**
-
-**Observações:**
-
-* **Personalize:** Adapte este README para o seu projeto, incluindo informações mais específicas sobre o seu código, as tecnologias que você utilizou e como outras pessoas podem contribuir.
-* **Imagens:** Adicione imagens para deixar o README mais visualmente atraente.
-* **Links:** Inclua links para a documentação das tecnologias utilizadas e para outros projetos relacionados.
-* **Licença:** Especifique a licença do seu projeto para que outras pessoas saibam como podem usar o seu código.
+** Obrigado por tudo! _Bis später!_**
