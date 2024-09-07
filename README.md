@@ -40,4 +40,4 @@ Se tiver alguma dúvida, pode abrir uma issue no GitHub ou me mandar um email.
 
 **#dalcktech #tecnologia #desenvolvimentoweb #github #javascript**
 
-#Obrigado por tudo! _Bis später!_
+**Obrigado por tudo!** _Bis später!_
