@@ -66,4 +66,4 @@ function handleEnter(event) {
 
 // Adiciona o ouvinte de evento para a tecla Enter no campo de pesquisa
 let inputPesquisa = document.getElementById("aba-pesquisar");
-inputPesquisa.addEventListener("keyup", handleEnter);
+inputPesquisa.addEventListener("keyup", handleEnter)
