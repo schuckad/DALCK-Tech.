@@ -1,11 +1,11 @@
-let dados = [
+ let dados = [
     {
         titulo : "Alura",
         descricao : "A Alura é a maior escola online de tecnologia do Brasil, oferecendo cursos e trilhas de aprendizado completas para quem busca se desenvolver na área. Com uma plataforma intuitiva e conteúdos atualizados, a Alura capacita profissionais de todos os níveis, desde iniciantes até especialistas. Além de cursos individuais, a Alura também oferece soluções personalizadas para empresas, ajudando a desenvolver os talentos internos e a promover a inovação. Se você quer aprender a programar, se aprofundar em alguma tecnologia específica ou simplesmente expandir seus conhecimentos em tecnologia, a Alura é o lugar certo para você.",
         link : "https://www.alura.com.br/",
         tags: "alura, tecnologia, escola"
     },
-
+ 
     {
         titulo: "Apple",
         descricao: "A Apple é uma empresa multinacional norte-americana que revolucionou a indústria da tecnologia com seus produtos inovadores e design elegante. Fundada em 1976 por Steve Jobs, Steve Wozniak e Ronald Wayne, a Apple é conhecida por seus computadores Mac, smartphones iPhone, tablets iPad, relógios inteligentes Apple Watch e diversos outros dispositivos e serviços. A empresa se destaca por sua atenção aos detalhes, interface intuitiva e ecossistema integrado de produtos, conquistando milhões de fãs ao redor do mundo.",
@@ -314,4 +314,143 @@ let dados = [
         tags: "cripto crypto moeda moedas digital carteira digitais dinheiro"
       },
       
+      {
+        titulo: "Linux",
+        descricao: "O Linux é um sistema operacional de código aberto e gratuito, conhecido por sua flexibilidade, segurança e confiabilidade. Ele é baseado no kernel Linux, criado por Linus Torvalds em 1991. O Linux é amplamente utilizado em servidores, dispositivos móveis e sistemas embarcados, além de ser uma alternativa popular para sistemas operacionais proprietários como o Windows e o macOS em computadores pessoais.",
+        link: "https://www.kernel.org/category/about.html",
+        tags: "sistema operacional Linux linux linox liinux Linix"
+      },
+
+      {
+        titulo: "Wikipedia",
+        descricao: "A Wikipédia é um projeto de enciclopédia colaborativa multilíngue online. Lançada em 2001, é mantida pela Wikimedia Foundation e consiste em milhões de artigos em diversos idiomas. Seu conteúdo é construído de forma colaborativa por voluntários do mundo todo, o que significa que qualquer pessoa pode editar ou adicionar informações. Apesar de ser uma fonte de informação vasta e acessível, a Wikipédia não é considerada uma fonte primária confiável, já que seu conteúdo pode ser editado por qualquer pessoa e não passa por revisão especializada.",
+        link: "https://pt.wikipedia.org/wiki/Wikipédia:Página_principal",
+        tags: "wikipedia Wikipedia wiki Wiki"
+      },
+
+      {
+        titulo: "Full-stack",
+        descricao: "Um programador Full-stack é um profissional que domina tanto o desenvolvimento Front-end (interface do usuário) quanto o Back-end (lógica e funcionalidades do servidor) de aplicações web e mobile. Ele é capaz de criar e manter sistemas completos, desde a concepção até a implementação, o que o torna um profissional versátil e requisitado no mercado.",
+        link: "https://www.alura.com.br/artigos/full-stack?srsltid=AfmBOoq76dtkDW_79ikG8UNE1fA6edxUdkuQUBRfvYPcbBw0ECNwbLNs",
+        tags: "full stack Full Stack full-stack Full-stack programacao programação programaçao programacão dev"
+      },
+
+      {
+        titulo: "Front-end",
+        descricao: "Dev front-end é um termo muito utilizado para identificar profissionais que se especializaram especificamente nessa área. No desenvolvimento front-end, o profissional irá mexer com o código em si, projetando com quais ferramentas o usuário irá interagir. Por esse motivo, é importante ter essa diferença em mente quando falamos sobre o assunto.",
+        link: "https://www.totvs.com/blog/developers/front-end/",
+        tags: "front end Front End front-end Front-end programacao programação programaçao programacão dev"
+      },
+
+      {
+        titulo: "Back-end",
+        descricao: "O programador Back-end é o profissional que trabalha nos bastidores de um sistema, construindo a lógica, as funcionalidades e a infraestrutura que sustentam o Front-end (a parte visual com a qual o usuário interage). Ele é o responsável por fazer com que o sistema funcione corretamente, armazenando e processando dados, gerenciando bancos de dados e garantindo a segurança da aplicação.",
+        link: "https://www.alura.com.br/artigos/backend?srsltid=AfmBOopXAbP-m0hEGkuQpnoPKW_A7PnSc7jT0ITTD-EwAbpr4NTrdKSy",
+        tags: "back end Back End back-end Back-end programacao programação programaçao programacão dev"
+      },
+
+      {
+        titulo: "Engenharia de Software",
+        descricao: "A Engenharia de Software é a área da computação que se dedica à criação, desenvolvimento e manutenção de sistemas de software de forma sistemática e organizada. Ela aplica princípios de engenharia e ciência da computação para garantir que o software seja produzido com qualidade, eficiência e atenda aos requisitos do cliente.",
+        link: "https://www.alura.com.br/formacao-engenharia-software?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+%5BCursos%5D+DSA+-+Formações&utm_source=google&utm_medium=cpc&utm_content=691754664154&campaign_id=21045490451_158851964763_691754664154&utm_id=21045490451_158851964763_691754664154&hsa_acc=7964138385&hsa_cam=%5BSearch%5D+%5BPerformance%5D+%5BCursos%5D+DSA+-+Formações&hsa_grp=158851964763&hsa_ad=691754664154&hsa_src=g&hsa_tgt=dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvIrP75p-WO3FxWdHu4V6iIHdvH5JSR8k533scQhCa7l-5SIYqdK5tRoCcLEQAvD_BwE",
+        tags: "engenharia software Engenharia Software engenharia de software Engenharia de Software",
+      },
+
+      {
+        titulo: "Ciência de Dados",
+        descricao: "A Ciência de Dados é um campo interdisciplinar que combina técnicas de estatística, matemática, ciência da computação e conhecimento de negócios para extrair conhecimento e insights de dados. O objetivo é transformar dados brutos em informações acionáveis que possam ajudar a resolver problemas complexos e tomar decisões mais assertivas.",
+        link: "https://aws.amazon.com/pt/what-is/data-science/",
+        tags: "ciencia dados Ciência Dados ciencia de dados Ciência de Dados"
+      },
+
+      {
+        titulo: "Arquitetura de Soluções",
+        descricao: "A Arquitetura de Soluções (AS) é uma prática fundamental na área de tecnologia que visa criar soluções de software e sistemas que atendam às necessidades de negócios de uma organização. O Arquiteto de Soluções (AS) é o profissional responsável por projetar, planejar e supervisionar a implementação dessas soluções, garantindo que elas sejam eficientes, escaláveis, seguras e alinhadas com os objetivos estratégicos da empresa.",
+        link: "https://querobolsa.com.br/carreiras-e-profissoes/arquiteto-de-solucoes",
+        tags: "arquitetura solucoes Arquitetura Soluções arquiteto solucoes Arquiteto Soluções"
+      },
+
+      {
+        titulo: "React",
+        descricao: "React é uma biblioteca JavaScript de código aberto, criada e mantida pelo Facebook (agora Meta) para o desenvolvimento de interfaces de usuário (UI) interativas e dinâmicas em aplicações web e mobile. Apesar de ser frequentemente chamada de framework, sua natureza é mais específica, focando na camada de visualização e oferecendo ferramentas para criar componentes reutilizáveis e gerenciar o estado da aplicação de forma eficiente.",
+        link: "https://www.alura.com.br/artigos/react-js?srsltid=AfmBOory6ObgFVznE86m7hBXALX_FwlYuNVzDj4XTRwt77UXGavLP_3d",
+        tags: "react React REACT programacao programação programaçao programacão dev"
+      },
+
+      {
+        titulo: "Angular",
+        descricao: "O Angular é um framework de código aberto para desenvolvimento web, mantido pelo Google. Ele é utilizado para criar aplicações dinâmicas e complexas, tanto para desktop quanto para dispositivos móveis. O Angular é utilizado para desenvolver diversos tipos de aplicações web, desde Single Page Applications (SPAs) até aplicações complexas com múltiplas páginas e funcionalidades. Ele é uma ótima opção para projetos que exigem alta performance, escalabilidade e manutenibilidade.",
+        link: "https://angular.io/",
+        tags: "angular Angular ANGULAR programacao programação programaçao programacão dev"
+      },
+
+      {
+        titulo: "Vue.js",
+        descricao: "Vue.js é um framework JavaScript progressivo e de código aberto para a construção de interfaces de usuário (UIs) e aplicativos de página única (SPAs). Ele se destaca por sua curva de aprendizado suave, sua flexibilidade e sua capacidade de ser adotado incrementalmente em projetos existentes.",
+        link: "https://vuejs.org/",
+        tags: "vue Vue VUE programacao programação programaçao programacão dev"
+      },
+
+    {
+      titulo: "jQuery",
+      descricao: "O jQuery é uma biblioteca JavaScript poderosa e amplamente utilizada que simplifica muitas tarefas comuns no desenvolvimento web. Criada por John Resig em 2006, ela se tornou uma ferramenta essencial para desenvolvedores front-end, permitindo escrever código mais conciso e eficiente.",
+      link: "https://jquery.com/",
+      tags: "jquery jQuery JQUERY programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "Bootstrap",
+      descricao: "Bootstrap é um framework front-end, o que significa que ele fornece ferramentas e estilos pré-definidos para facilitar a criação de interfaces web (sites e aplicativos) responsivas e com boa aparência. Ele é composto por folhas de estilo CSS e componentes JavaScript prontos para uso.",
+      link: "https://getbootstrap.com/",
+      tags: "bootstrap Bootstrap BOOTSTRAP programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "Express.js",
+      descricao: "O Express.js, frequentemente chamado apenas de Express, é um framework para Node.js que simplifica a criação de servidores web e APIs (Application Programming Interfaces). Ele fornece recursos essenciais para lidar com requisições HTTP, rotas, middlewares e muito mais, permitindo que os desenvolvedores foquem na lógica de negócios de suas aplicações.",
+      link: "https://expressjs.com/",
+      tags: "express Express EXPRESS programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "Django",
+      descricao: "Django é um framework web de alto nível, open-source e escrito em Python, que permite o desenvolvimento rápido, limpo e pragmático de aplicações web. Ele é conhecido por sua filosofia que incentiva a reutilização de código e a criação de aplicações mais eficientes e manuteníveis.",
+      link: "https://www.djangoproject.com/",
+      tags: "django Django DJANGO programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "ASP.NET",
+      descricao: "O ASP.NET é um framework de desenvolvimento web abrangente e poderoso, criado pela Microsoft, que permite a construção de aplicações web dinâmicas, sites e serviços web robustos e escaláveis. Ele oferece uma ampla gama de recursos e ferramentas que facilitam o trabalho dos desenvolvedores, permitindo que eles se concentrem na criação de soluções inovadoras e de alta qualidade.",
+      link: "https://dotnet.microsoft.com/apps/aspnet",
+      tags: "asp.net ASP.NET ASPNET programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "TensorFlow",
+      descricao: "O TensorFlow é uma biblioteca de software de código aberto para aprendizado de máquina. Ele foi desenvolvido pelo Google e é usado para criar e treinar modelos de aprendizado de máquina. O TensorFlow é uma ferramenta poderosa que pode ser usada para uma variedade de tarefas, como reconhecimento de imagem, processamento de linguagem natural e previsão de séries temporais.",
+      link: "https://www.tensorflow.org/",
+      tags: "tensorflow TensorFlow TENSORFLOW programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "PyTorch",
+      descricao: "O PyTorch é um framework de código aberto para aprendizado de máquina desenvolvido pelo Facebook's AI Research lab. Ele é amplamente utilizado em pesquisas e aplicações de inteligência artificial, especialmente em áreas como visão computacional e processamento de linguagem natural.",
+      link: "https://pytorch.org/",
+      tags: "pytorch PyTorch PYTORCH programacao programação programaçao programacão dev"
+    },
+    
+    {
+      titulo: "Scikit-learn",
+      descricao: "Scikit-learn (frequentemente abreviado como sklearn) é uma biblioteca essencial em Python para aprendizado de máquina. Ela oferece uma coleção abrangente de ferramentas e algoritmos para diversas tarefas, desde classificação e regressão até agrupamento e redução de dimensionalidade.",
+      link: "https://scikit-learn.org/",
+      tags: "scikit-learn Scikit-learn SCIKIT-LEARN Scikit scikit learn Learn programacao programação programaçao programacão dev"
+    },
+
+    {
+      titulo: "Pandas",
+      descricao: "O Pandas é uma poderosa biblioteca Python de código aberto que fornece ferramentas flexíveis e de alto desempenho para manipulação e análise de dados. Ele oferece estruturas de dados, como DataFrames, que permitem representar dados tabulares de forma eficiente e realizar operações como leitura, limpeza, transformação, agregação e visualização de dados. O Pandas é amplamente utilizado em diversas áreas, como ciência de dados, finanças, estatística e engenharia, devido à sua capacidade de lidar com grandes volumes de dados de maneira rápida e intuitiva.",
+      link: "https://pandas.pydata.org/about",
+      tags: "pandas Pandas PANDAS programacao programação programaçao programacão dev"
+    }
 ]; 
