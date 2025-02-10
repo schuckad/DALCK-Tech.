@@ -453,4 +453,4 @@
       link: "https://pandas.pydata.org/about",
       tags: "pandas Pandas PANDAS programacao programação programaçao programacão dev"
     }
-]; 
+]
